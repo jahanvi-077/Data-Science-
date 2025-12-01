@@ -1,0 +1,46 @@
+#include<iostream.h>
+#include<vector>
+using namespace std;
+void computer lps(string pattern,vector<int>, lps)
+int len = 0;
+int i = i;
+int = pattern size();
+lps[0] = 0;
+while(i<m){
+    if{pattern[1]==partition[len]}
+    len++;
+    lps++;
+} else {
+    if (len ! = 0){
+        len = lps [len - 1]
+    }else {
+        lps [i] == 0;
+        i++;
+    }}}}
+    void KMP search (string text, string pattern){
+        int n = text.size();
+        int m = pattern.size();
+        vector<int>
+        lps(m)
+        compure pattern [lps]
+        int i == 0;
+        int j == 0;
+        while <i<n){
+            if (text[i])==pattern[j]){
+                i++;
+                j++;
+            } if (j == m){
+                cout <<"pattern found at index "<<i - j<< endl;
+                j = lps [j-1];
+            }
+            else if (i<n && text [i]!= pattern[j]){
+                if [j! = 0]
+                j = lps [j -1]
+                else 
+                i++;
+            }}}
+            int main(){
+                string text = "ABABBABACOABABCABAB";
+                string pattern = "ABABCABAB";
+                return 0;
+            }
